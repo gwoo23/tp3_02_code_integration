@@ -1,4 +1,15 @@
   task_test.c (task_test.h) 
    Non-Blocking & Update By Time Code -> Test Code Integration
   
+  'task_test.c':
+  Se declara 'p_task_test' y 'p_task_test_' como cadenas de caracteres.
+  'g_task_test_cnt' cuenta las ejecuciones de las tareas. 'g_task_test_tick_cnt' los
+  ticks.
+  La función 'task_test_init' incializa los testeos de las tareas. La función
+  'task_test_update' las actuaaliza.
+  
+  'task_test_attribute.h':
+  Se declara 'task_test_dta_t' como un tipo de dato para contar los ticks de los tests
+  de las tareas. 'task_test_dta' es una variable declarada de este tipo dato.
+  
 ...
